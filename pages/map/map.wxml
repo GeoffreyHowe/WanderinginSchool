@@ -1,0 +1,9 @@
+<!--map.wxml-->
+<map id="SHU" latitude="31.315864" longitude="121.393443" show-location polygons="{{edge}}" markers="{{markers}}" polyline="{{polyline}}">
+
+  <view class="cover">
+    <view><button class="btnRun" style="width: 100rpx; height: 100rpx;" bindtap="Dijkstra"><text class="iconRun"></text></button></view>   
+    <view><button class="btnRefresh" style="width: 100rpx; height: 100rpx;" bindtap="Refresh"><text class="iconRun"></text></button></view>
+  </view>
+
+</map>
